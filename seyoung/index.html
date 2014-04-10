@@ -8,6 +8,14 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
+    <a id="click" herf="#">click me</a><br>
+    <img id="cat" src="http://media-cache-ec0.pinimg.com/236x/f7/da/47/f7da47626f2c22b15e505e8d4b2ec86d.jpg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+      $("#click").click(function(){
+        $("#cat").slideToggle();
+      });
+    </script>
+      
   </body>
 </html>
